@@ -1,5 +1,14 @@
-name = str(input('What is your name? '))
-age = int(input('How old are you? '))
-year = str((2021 - age)+100)
+game = [[1, 1, 1,],[0, 2, 0],[2, 2, 0]]
 
-print (name + ' will turn 100 in ' + year)
+
+
+def win(current_game):
+    for row in game:
+        print(row)
+        col1 = row[0]
+        col2 = row[1]
+        col3 = row[2]
+    if col1 == col2 == col3:
+        print('WINNER!!!!!!')
+
+win(game)

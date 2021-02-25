@@ -26,6 +26,7 @@ show_game(just_display=True)
 while gameover == False:
     p1make_move()
     p2make_move()
+    
 
 
 
